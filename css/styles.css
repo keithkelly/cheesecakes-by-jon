@@ -42,9 +42,26 @@ main {
   padding: 5rem 1rem 1rem;
 }
 
+button {
+  background-color: #f0ad4e;
+  border: 1px solid #785627;
+  border-radius: 4px;
+  color: #785627;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+button:hover {
+  background-color: #c08a3e;
+}
+
 .title {
   font-family: 'Berkshire Swash', 'Roboto', Arial, sans-serif;
   font-size: 2rem;
+}
+
+#sort-name {
+  margin-bottom: 1rem;
 }
 
 /* Cheesecake rules */
@@ -88,8 +105,14 @@ main {
   border-bottom: 1px solid #785627;
   border-left: 1px solid #785627;
   border-right: 1px solid #785627;
+  display: flex;
   flex: 1;
+  flex-direction: column;
   padding: 0.5rem;
+}
+
+.cheesecake .info p {
+  flex: 1;
 }
 
 .cheesecake .order {
@@ -101,19 +124,6 @@ main {
 .cheesecake .order span {
   flex: 1;
   text-align: center;
-}
-
-.cheesecake .order button {
-  background-color: #f0ad4e;
-  border: 1px solid #785627;
-  border-radius: 4px;
-  color: #785627;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-}
-
-.cheesecake .order button:hover {
-  background-color: #c08a3e;
 }
 
 .cheesecake .order span {
